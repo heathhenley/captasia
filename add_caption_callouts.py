@@ -186,7 +186,7 @@ def main():
   # Check that it's a .tscproj file  
   if not prj.suffix == ".tscproj":
     raise ValueError(
-      f"Project file must be a .tscproj file, not {pathlib.Path(args.project).suffix}. Make sure you are pointing at the .tscproj file, not the folder.")
+      f"Project file must be a .tscproj file, not {prj.suffix}. Make sure you are pointing at the .tscproj file, not the folder.")
 
   # Load the project file 
   with open(prj, 'r') as f:
