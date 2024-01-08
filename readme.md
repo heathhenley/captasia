@@ -51,6 +51,9 @@ The script will add a new track to the project and add a callout for each
 caption in the .srt file, and then save the project as new file (in case it
 breaks).
 
+### Example
+Here's a [YouTube Video](https://youtu.be/TprEKrI0jk0) based on the example data.
+
 ### Known Issues
 When the text is longer than the length of the call out, it looks truncated. It
 isn't, it's just that the text past the length of the callout is super small.
