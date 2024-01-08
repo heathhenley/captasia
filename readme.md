@@ -1,6 +1,18 @@
 # Add captions from a .srt to Camtasia Project as Callouts
 ## Edits the .tscproj file directly to add text from captions as callouts
 
+
+**TL;DR** - Hacky script adds captions from a .srt file to a Camtasia project as
+callouts. It's not perfect, but it's better than adding them manually.
+
+Assuming Python 3.10 or greater is installed, you can run it like this:
+
+``` bash 
+python add_caption_callouts.py captions.srt camtasia_prj_dir.tscproj/test_project.tscproj
+```
+
+### More Info
+
 It's a hack - normal captions can't easily be moved, animated, etc., but adding
 them one by one as callouts manually is annoying. This is meant to be a quick
 way to get them into the project so you can start to edit them / move them /
