@@ -21,7 +21,7 @@ animate them.
 I realize the overlap of people who use Camtasia and people who run Python
 scripts is probably small - if you think you want to use this but don't know
 how feel free to reach to out and I'll try to help. If there's enough interest
-I stand it up behind a Web UI. I'm hesitant to put much work into it because
+I will stand it up behind a Web UI. I'm hesitant to put much work into it because
 I'm sure they'll add this feature in Camtasia soon.
 
 This is developed with Camtasia 2023, Python 3.10 and Windows, I don't know 
