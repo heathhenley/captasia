@@ -93,8 +93,8 @@ CAPTION_BLANK = { '_type': 'Callout',
 class Caption:
   """ Holds some information about a caption """
 
-  # I don't know what this is is, but I got it by checking the durations and
-  # times of the captions in a project with a single caption - eg 1 second is
+  # I don't know what this is, but I got it by checking the durations and
+  # times of the captions in a project with a single caption - eg 1 ms is
   # 705600 units
   secs_to_cs_time = 705_600
 
